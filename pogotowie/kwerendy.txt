@@ -1,0 +1,4 @@
+insert into zgloszenia (ratownicy_id, dyspozytorzy_id, adres, czas_zgloszenia) values(1, 4, "Warszawa Staszica 34/5",CURRENT_TIME());
+select adres, dyspozytorzy_id from zgloszenia where ratownicy_id like 3;
+create user 'anna'@'localhost' identified by "Anna4!";
+grant insert, select, update on ratownictwo.zgloszenia to 'anna'@'localhost';

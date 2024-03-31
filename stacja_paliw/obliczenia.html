@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+<title>Stacja paliw</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl3.css">
+    <script src="js.js"></script>
+    <style>
+        body {
+    font-family: Helvetica;
+}
+
+#banerLewy{
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#lewy{
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#prawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#banerPrawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#blokGlowny {
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
+
+#footer {
+    background-color: rgb(240, 234, 226);
+    padding: 130px;
+}
+
+table, td, th, td {
+    border: solid, 1px, rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240, 234, 226);
+}
+    </style>
+</head>
+
+ <body>
+        
+
+        <section id="banerLewy">
+            <h1>Stacja Paliw</h1>
+        </section>
+        <section id="banerPrawy">
+           <a href="stacja.html">
+            <img src="home.png" >
+        </a> 
+        <a href="obliczenia.html">  
+        <img src="znak.png">
+    </a> 
+        </section>
+
+
+        <section id="blokGlowny">
+            <h3>Oblicz koszta paliwa</h3><br>
+          <form method="POST">
+            Rodzaj paliwa(1-benzyna, 2-olej napędowy)<br>
+            <input type="number" id="mieszanka"></select><br>
+            Ile litrów?<br>
+            <input type="number" id="litry"></select>
+            <button type="button" onclick ="funkcja()">OBLICZ</button><br>
+       
+                <span id="wynik">  </span>
+        </form>
+        </section>
+
+      
+
+        <section id="lewy">
+         <a href ="kwerendy.txt"> Pobierz kwerendy </a>
+        </section>
+
+        <section id="prawy">
+            <img src="samochod.png" alt="samochod">
+    </section>  
+
+
+        <section id="footer">
+            Stronę opracował: 00000000
+
+        </section>
+
+
+
+
+ </body>

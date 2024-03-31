@@ -1,0 +1,56 @@
+body {
+    font-family: Tahoma;
+}
+
+#upLeft, #upRight{
+    background-color: rosybrown;
+    color: white;
+    width: 30%;
+    height: 200px;
+    
+}
+
+#upMiddle {
+    background-color: RosyBrown;
+    color: white;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+}
+#upMiddle{
+    float:left;
+    
+}
+
+#upLeft{
+    float:left;
+}
+
+#upRight{
+    float:right;
+}
+
+#glowny{
+    background-color: wheat;
+    padding: 50px;
+    clear:both;
+
+}
+
+
+footer{
+    background-color: RosyBrown;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+a{
+    border: solid 2px;
+    color: darkred;
+    background-color: salmon;
+    color: darkred;
+    padding: 20px;
+    line-height: 200px; 
+}

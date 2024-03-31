@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica;
+}
+
+#banerLewy{
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#lewy{
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#prawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#banerPrawy {
+    background-color: rgb(130,69,85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#blokGlowny {
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
+
+#footer {
+    background-color: rgb(240, 234, 226);
+    padding: 130px;
+}
+
+table, td, th, td {
+    border: solid 1px  rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240, 234, 226);
+}

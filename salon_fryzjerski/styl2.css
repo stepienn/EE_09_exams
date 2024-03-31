@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica;
+}
+
+#FirstLeft {
+    height:400px;
+    width: 70%;
+    background-color: snow;
+    text-align: center;
+    float: left;
+}
+#SecondLeft{
+    height:400px;
+    width:70%;
+    background-color: snow;
+    font-size: 150%;
+    float:left;
+}
+
+#FirstRight{
+    height: 150px;
+    width: 30%;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    float: left;
+}
+#SecondRight{ 
+    height: 350px;
+    width: 30%;
+    background-color: steelblue;
+    float: left;
+}
+#ThirdRight{
+    height: 300px;
+    width: 30%;
+    color: snow;
+    text-align: center;
+    float:left;
+}
+footer{
+    background-color: steelblue;
+    color: white;
+    clear: both;
+}
+
+h2{
+    font-size: 250%;
+}
+
+img{
+    padding: 4px;
+}
+
+img:hover{
+    padding: 3px;
+    border: solid 1px steelblue;
+} 
